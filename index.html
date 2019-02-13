@@ -12,7 +12,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
@@ -20,7 +20,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
-
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -62,7 +62,7 @@
   <div class="container-fluid p-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
+      <div data-aos="flip-up" class="w-100">
         <h1 class="mb-0">Vijoy T 
           <span>Abraham</span>
         </h1>
@@ -93,7 +93,7 @@
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
+      <div data-aos="flip-right" class="w-100">
         <h2 class="mb-5">Experience</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -160,7 +160,7 @@
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
+      <div data-aos="zoom-in" class="w-100">
         <h2 class="mb-5">Education</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -203,7 +203,9 @@
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
+      <div  data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine" class="w-100">
         <h2 class="mb-5">Skills</h2>
 
         <div class="subheading mb-3">Programming Languages &amp; Tools</div>
@@ -273,7 +275,9 @@
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
+      <div data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500" class="w-100">
         <h2 class="mb-5">Interests</h2>
         <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am Travelholic. During the warmer months here in Nigiris, I enjoy exploring Nilgiris, free climbing.</p>
         <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
@@ -283,7 +287,9 @@
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000" class="w-100">
         <h2 class="mb-5">Awards &amp Certifications</h2>
         <ul class="fa-ul mb-0">
           <li>
@@ -328,7 +334,12 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
