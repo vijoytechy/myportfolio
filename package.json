@@ -25,7 +25,7 @@
     "@fortawesome/fontawesome-free": "5.7.0",
     "aos": "^2.3.4",
     "bootstrap": "4.2.1",
-    "jquery": "3.3.1",
+    "jquery": "3.5.0",
     "jquery.easing": "^1.4.1"
   },
   "devDependencies": {
